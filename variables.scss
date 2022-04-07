@@ -1,0 +1,11 @@
+$pageBackground: #c3cfe2;
+$bottomBackground: #686de0;
+$containerBackground: white;
+$bottomText: white;
+
+@mixin bottom-text {
+  font-family: sans-serif;
+  text-align: center;
+  color: $bottomText;
+  letter-spacing: 0.1em;
+}
